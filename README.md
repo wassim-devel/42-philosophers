@@ -1,7 +1,7 @@
 # 42-philosophers
 Philosophers project at 42 School
 
-This project is a resolution to the dining philosophers that is written entirely in C, from the common core of 42 School.
+This project is a resolution to the dining philosophers problem that is written entirely in C, from the common core of 42 School.
 Each philosopher is a thread, there are as many philosophers as forks, and each philosophers needs two forks to eat.
 Forks are protected by mutexes, philosophers die event is checked by the main function.
 Only some functions were authorized, you can find them in the subject :
